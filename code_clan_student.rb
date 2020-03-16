@@ -21,4 +21,12 @@ class Student
     @cohort_id = cohort_id
   end
 
+  def student_speaks()
+    return "I can talk"
+  end
+
+  def student_favourite_language(language)
+    return "I love " + language
+  end
+
 end
