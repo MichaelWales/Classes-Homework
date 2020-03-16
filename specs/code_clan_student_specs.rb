@@ -8,5 +8,10 @@ class TestStudent < MiniTest::Test
   def setup
     @student = Student.new("Michael", "G18")
   end
-  
+
+  def test_set_student_name()
+    @student.set_student_name("Michael")
+    assert_equal("Michael", @student.student_name())
+  end
+
 end
