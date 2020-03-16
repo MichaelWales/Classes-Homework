@@ -10,7 +10,7 @@ class SportsBall < MiniTest::Test
   end
 
   def test_set_coach_name()
-    @sports_ball.set_coach_name("Chuck")
+    @sports_ball.coach_name("Chuck")
     assert_equal("Chuck", @sports_ball.coach())
   end
 
