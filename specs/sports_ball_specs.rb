@@ -14,4 +14,8 @@ class SportsBall < MiniTest::Test
     assert_equal("Chuck", @sports_ball.coach())
   end
 
+  def test_player_add
+    assert_equal(1, team_players.length)
+  end
+
 end
