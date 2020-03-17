@@ -26,8 +26,8 @@ class SportsTeam
     @coach_name = name
   end
 
-  def player_add(player1)
-    SportsTeam.team_players << player1
-  end
+  # def player_add(player1)
+  #   SportsTeam.team_players << player1
+  # end
 
 end
